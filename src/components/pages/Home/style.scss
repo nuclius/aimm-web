@@ -1,0 +1,81 @@
+.home-page {
+    .intro-player {
+        width: fit-content;
+        display: block;
+        font-size: 13px;
+        line-height: 25px;
+        .icon {
+            width: 30px;
+            height: 25px;
+            border: 1px solid white;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+        .icon.blue {
+            border: 1px solid #335E9F;
+        }
+    }
+
+    .brand {
+        position: relative;
+        padding: 150px 50px;
+        & * {
+            color: white;
+        }
+        .brand-img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    section {
+        display: flex;
+        justify-content: center;
+        padding: 90px 30px;
+
+        h3, h5 {
+            line-height: 1.5em;
+        }
+
+        p.large {
+            font-size: 21px;
+        }
+
+        .content {
+            max-width: 950px;
+        }
+
+        .service-list {
+            margin-top: 80px;
+            padding: 0 30px;
+            ul {
+                width: fit-content;
+                li {
+                    list-style: disc;
+                    font-size: 20px;
+                    color: #2F2F4F;
+                }
+            }
+        }
+    }
+
+    section.bg-sky {
+        background-color: #EEF2F7 ;
+    }
+
+    section.aimm-works {
+        .row {
+            h5 {
+                height: 45px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+        }
+    }
+}
