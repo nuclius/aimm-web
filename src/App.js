@@ -32,9 +32,11 @@ class App extends Component {
 
     // Settings init
     let settings = getLocalSettings();
-    if (settings === null || settings === undefined)
+    if (settings === null || settings === undefined) {
       setLocalSettings(this.props.settings);
-    else this.props.setSettings(settings);
+    } else {
+      this.props.setSettings(settings);
+    }
   }
 
   render() {
