@@ -1,22 +1,20 @@
 .app-footer {
-    background-color: #EEF2F7;
-    padding: 80px 30px;
+  background-color: #eef2f7;
+  padding: 80px 30px;
 
-    p {
-        color: #B1B1B1;
+  p {
+    color: #b1b1b1;
+    font-size: 14px;
+  }
+
+  .menu-column {
+    li {
+      margin: 10px 0;
+
+      a {
+        color: #55556f;
         font-size: 14px;
+      }
     }
-
-    .menu-column {
-        li {
-            margin: 10px 0;
-
-            a {
-                color: #55556F;
-                font-size: 14px;
-            }
-        }
-    }
-
-    
+  }
 }

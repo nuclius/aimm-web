@@ -1,28 +1,28 @@
 .aimm-header {
-    min-height: 100px;
-    background-color: white !important;
-    padding: 1.5rem !important;
-    box-shadow: none !important;
-    border-bottom: 1px solid #eee;
-    transition: 0.2s;
+  min-height: 100px;
+  background-color: white !important;
+  padding: 1.5rem !important;
+  box-shadow: none !important;
+  border-bottom: 1px solid #eee;
+  transition: 0.2s;
 
-    .auth-buttons button {
-        width: 160px;
-    }
+  .auth-buttons button {
+    width: 160px;
+  }
 
-    .nav-link {
-        color: #858598;
-        margin-left: 10px;
-        margin-right: 10px;
-        font-size: 13px !important;
-    }
+  .nav-link {
+    color: #858598;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 13px !important;
+  }
 
-    .nav-link.active {
-        color: #345E9F !important;
-    }
+  .nav-link.active {
+    color: #345e9f !important;
+  }
 
-    &.smaller {
-        min-height: 50px;
-        padding: 0.8rem 1.5rem !important;
-    }
+  &.smaller {
+    min-height: 50px;
+    padding: 0.8rem 1.5rem !important;
+  }
 }
