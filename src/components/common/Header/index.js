@@ -90,7 +90,7 @@ class AppHeader extends Component {
           <Collapse isOpen={isOpen} navbar>
             <Nav className="mr-auto ml-3" navbar>
               <NavItem>
-                <NavLink active={path == "/"} href="/">
+                <NavLink active={path === "/"} href="/">
                   HOME
                 </NavLink>
               </NavItem>
