@@ -84,7 +84,7 @@ class AppHeader extends Component {
           className="aimm-header"
         >
           <NavbarBrand href="/">
-            <img src={logo} width="100" />
+            <img alt="" src={logo} width="100" />
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={isOpen} navbar>

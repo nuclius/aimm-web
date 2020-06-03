@@ -7,7 +7,6 @@ import { Row, Col } from "reactstrap";
 import terry from "assets/img/terry.png";
 import jesse from "assets/img/jesse.png";
 import pedro from "assets/img/pedro.png";
-import brain from "assets/img/brain.png";
 
 import "./style.scss";
 
